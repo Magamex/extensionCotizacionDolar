@@ -1,0 +1,297 @@
+#spinCargando {
+  width: 20%;
+  margin: 50% 0px 0px 0px;
+}
+
+#divCargando {
+  text-align: center;
+}
+
+#divCotizacion {
+  position: absolute;
+  width: 300px;
+  height: 394px;
+  background: #323232;
+}
+
+.divEstilo {
+  border: 2px solid #14ffec;
+  background: #212121;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+#divTitulo {
+  position: absolute;
+  top: 15px;
+  left: 14px;
+  width: 222px;
+  height: 34px;
+}
+
+#divTitulo div {
+  width: 219px;
+  height: 31px;
+  text-align: center;
+  line-height: 31px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+#btnActualizar {
+  position: absolute;
+  top: 15px;
+  left: 250px;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  line-height: 0px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#btnActualizar:hover {
+  background-color: #14ffec;
+  border: 2px solid #ffffff;
+  color: #212121;
+}
+
+.divLabelSupIzq {
+  /* Tamaño */
+  position: absolute;
+  width: 115px;
+  height: 44px;
+  /* Estilos */
+  color: #ffffff;
+  background: #212121;
+  border: 2px solid #14ffec;
+  box-sizing: border-box;
+  border-radius: 10px 10px 0px 0px;
+  /* Alineacion */
+  text-align: center;
+  line-height: 40px;
+}
+
+.positionLabelOficial {
+  /* Posicion */
+  left: 14px;
+  top: 62px;
+}
+
+.positionLabelBlue {
+  /* Posicion */
+  left: 14px;
+  top: 145px;
+}
+
+.positionLabelMayorista {
+  /* Posicion */
+  left: 14px;
+  top: 229px;
+}
+
+.positionLabelFuturo {
+  /* Posicion */
+  left: 14px;
+  top: 311px;
+}
+
+.divFechaInfIzq {
+  /* Tamaño */
+  position: absolute;
+  width: 115px;
+  height: 28px;
+  /* Estilo */
+  color: #ffffff;
+  background: #212121;
+  border: 2px solid #14ffec;
+  box-sizing: border-box;
+  border-radius: 0px 0px 10px 10px;
+  /* Alineacion */
+  text-align: center;
+  line-height: 25px;
+  /* Fuente */
+  font-size: 12px;
+}
+
+.positionFechaOficial {
+  /* Posicion */
+  left: 14px;
+  top: 104px;
+}
+
+.positionFechaBlue {
+  /* Posicion */
+  left: 14px;
+  top: 187px;
+}
+
+.positionFechaMayorista {
+  /* Posicion */
+  left: 14px;
+  top: 270px;
+}
+
+.positionFechaFuturo {
+  /* Posicion */
+  left: 14px;
+  top: 353px;
+}
+
+.divCompraOficial {
+  /* Tamaño */
+  position: absolute;
+  padding: 0px 0px 0px 3px;
+  width: 93px;
+  height: 36px;
+  /* Estilo */
+  color: #ffffff;
+  background: #212121;
+  border: 2px solid #14ffec;
+  box-sizing: border-box;
+  border-radius: 10px 0px 0px 0px;
+  /* Alineacion */
+  text-align: center;
+  line-height: 30px;
+  /* Fuente */
+  font-size: 12px;
+}
+
+.positionCompraOficial {
+  left: 143px;
+  top: 63px;
+}
+.positionCompraBlue {
+  left: 143px;
+  top: 145px;
+}
+.positionCompraMayorista {
+  left: 143px;
+  top: 228px;
+}
+.positionCompraFuturo {
+  left: 143px;
+  top: 311px;
+}
+
+.divPorcentajeOficial {
+  /* Tamaño */
+  position: absolute;
+  width: 52px;
+  height: 36px;
+  /* Estilo */
+  color: #ffffff;
+  background: #212121;
+  border: 2px solid #14ffec;
+  box-sizing: border-box;
+  border-radius: 0px 10px 0px 0px;
+  /* Alineacion */
+  line-height: 30px;
+  /* Fuente */
+  font-size: 13px;
+}
+
+.positionPorcentajeOficial {
+  left: 234px;
+  top: 63px;
+}
+
+.positionPorcentajeBlue {
+  left: 234px;
+  top: 145px;
+}
+
+.positionPorcentajeMayorista {
+  left: 234px;
+  top: 228px;
+}
+
+.positionPorcentajeFuturo {
+  left: 234px;
+  top: 311px;
+}
+
+.divVentaOficial {
+  /* Tamaño */
+  padding: 0px 0px 0px 3px;
+  position: absolute;
+  width: 93px;
+  height: 36px;
+  /* Estilo */
+  color: #ffffff;
+  background: #212121;
+  border: 2px solid #14ffec;
+  box-sizing: border-box;
+  border-radius: 0px 0px 0px 10px;
+  /* Alineacion */
+  line-height: 30px;
+  /* Fuente */
+  font-size: 12px;
+}
+
+.positionVentaOficial {
+  left: 143px;
+  top: 97px;
+}
+
+.positionVentaBlue {
+  top: 179px;
+  left: 143px;
+}
+
+.positionVentaMayorista {
+  top: 262px;
+  left: 143px;
+}
+
+.positionVentaFuturo {
+  top: 345px;
+  left: 143px;
+}
+
+.divSimboloOficial {
+  /* Tamaño */
+  position: absolute;
+  width: 52px;
+  height: 36px;
+  /* Estilo */
+  color: #ffffff;
+  background: #212121;
+  border: 2px solid #14ffec;
+  box-sizing: border-box;
+  border-radius: 0px 0px 10px 0px;
+  /* Alineacion */
+  line-height: 30px;
+}
+
+.positionSimboloOficial {
+  top: 97px;
+  left: 234px;
+}
+
+.positionSimboloBlue {
+  top: 179px;
+  left: 234px;
+}
+
+.positionSimboloMayorista {
+  top: 262px;
+  left: 234px;
+}
+
+.positionSimboloFuturo {
+  top: 345px;
+  left: 234px;
+}
+
+.up {
+  color: limegreen;
+}
+
+.down {
+  color: orangered;
+}
+
+.equal {
+  color: darkgray;
+}

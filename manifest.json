@@ -1,0 +1,32 @@
+{
+   "content_scripts": [ {
+      "css": [ "assets/css/index.css","assets/css/all.min.css" ],
+      "js": [ "assets/js/index.js"],
+      "matches": ["http://*/*", "https://*/*"],
+      "include_globs": [ "*" ],
+      "run_at": "document_end",
+      "all_frames": true
+   } ],
+   "browser_action": {
+      "default_title": "Cotizacion del Dolar",
+      "default_popup": "index.html",
+      "default_icon": {
+         "128": "assets/images/icoDolarExtension.png",
+         "16": "assets/images/icoDolarExtension.png",
+         "19": "assets/images/icoDolarExtension.png",
+         "24": "assets/images/icoDolarExtension.png",
+         "32": "assets/images/icoDolarExtension.png",
+         "38": "assets/images/icoDolarExtension.png",
+         "48": "assets/images/icoDolarExtension.png"
+      }
+   },
+   "manifest_version": 2,
+   "name": "Cotizacion Dolar!!",
+   "description": "Permite visualizar la cotizacion del dolar",
+   "version": "1.0",
+   "permissions": [
+      "tabs"
+   ],
+   "web_accessible_resources": [ "assets/images/*","assets/webfonts/*" ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

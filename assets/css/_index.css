@@ -1,0 +1,239 @@
+#cuerpoCotizacion {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 300px;
+    height: 340px;
+    background-color: rgba(50, 50, 50, 1);
+}
+
+#divTituloGeneral {
+    position: absolute;
+    left: 6px;
+    top: 11px;
+    width: 245px;
+    height: 30px;
+    display: flex;
+    font-family: 'Upheaval TT (BRK)', sans-serif;
+    font-size: 19px;
+    color: #FFFFFF;
+    background-color: rgba(33, 33, 33, 1);
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(20, 255, 236, 1);
+    border-radius: 10px;
+}
+
+#btnActualizar {
+    position: absolute;
+    left: 262px;
+    top: 11px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: rgba(33, 33, 33, 1);
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(20, 255, 236, 1);
+    border-radius: 5px;
+}
+
+#iconReload {
+    font-size: 18px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    color: rgba(20, 255, 236, 1);
+}
+
+#iconReload:hover{
+    color: #FFF;
+}
+
+.divDolarIzqSup {
+    position: absolute;
+    width: 103px;
+    height: 41px;
+    display: flex;
+    font-family: 'Upheaval TT (BRK)', sans-serif;
+    font-size: 17px;
+    color: #FFFFFF;
+    background-color: rgba(33, 33, 33, 1);
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(20, 255, 236, 1);
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.tituloDivCenter{
+    align-self: center;
+    text-align:left;
+    margin:0 auto;
+    display: inline-block;
+}
+
+#tituloDolarOficialIzq{
+    left: 6px;
+    top: 54px;
+}
+#tituloDolarBlueIzq{
+    left: 6px;
+    top: 125px;
+}
+#tituloDolarMayoristaIzq{
+    left: 6px;
+    top: 196px;
+}
+#tituloDolarFuturoIzq{
+    left: 6px;
+    top: 267px;
+}
+
+.divDolarIzqInf{
+    position: absolute;
+    width: 103px;
+    height: 22px;
+    display: flex;
+    font-family: 'Upheaval TT (BRK)', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+    color: #FFFFFF;
+    background-color: rgba(33, 33, 33, 1);
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(20, 255, 236, 1);
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+#fechaDolarOficialIzq{
+    left: 6px;
+    top: 93px;
+}
+#fechaDolarBlueIzq{
+    left: 6px;
+    top: 164px;
+}
+#fechaDolarMayoristaIzq{
+    left: 6px;
+    top: 235px;
+}
+#fechaDolarFuturoIzq{
+    left: 6px;
+    top: 311px;
+}
+
+.divDolarDerSup{
+    position: absolute;
+    width: 179px;
+    height: 32px;
+    line-height: 0px;
+    display: flex;
+    font-family: 'Upheaval TT (BRK)', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: rgba(33, 33, 33, 1);
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(20, 255, 236, 1);
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#dolarOficialDerSup{
+    left: 115px;
+    top: 54px;
+}
+#dolarBlueDerSup{
+    left: 115px;
+    top: 125px;;
+}
+#dolarMayoristaDerSup{
+    left: 115px;
+    top: 196px;;
+}
+#dolarFuturoDerSup{
+    left: 115px;
+    top: 267px;;
+}
+
+.divDolarDerInf{
+    position: absolute;
+    width: 179px;
+    height: 32px;
+    line-height: 0px;
+    display: flex;
+    font-family: 'Upheaval TT (BRK)', sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: rgba(33, 33, 33, 1);
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(20, 255, 236, 1);
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+#dolarOficialDerInf{
+    left: 115px;
+    top: 84px;
+}
+#dolarBlueDerInf{
+    left: 115px;
+    top: 155px;
+}
+#dolarMayoristaDerInf{
+    left: 115px;
+    top: 226px;
+}
+#dolarFuturoDerInf{
+    left: 115px;
+    top: 297px;
+}
+
+.imgLineaVertical{
+    position: absolute;
+    width: 4px;
+    height: 62px;
+}
+
+#posLineaOficial{
+    left: 225px;
+    top: 54px;
+}
+
+#posLineaBlue{
+    left: 225px;
+    top: 125px;
+}
+
+#posLineaMayorista{
+    left: 225px;
+    top: 196px;
+}
+
+#posLineaFuturo{
+    left: 225px;
+    top: 267px;
+}
+
+.labelDescripcion{
+    /* left: 122px;
+    top: 64px;
+    width: 52px;
+    height: 12px;
+    font-family: 'Upheaval TT (BRK)', sans-serif;
+    color: #14FFEC; */
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cotizacion del Dolar</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+</head>
+<body>
+    <div id="divCotizacion">
+        <div id="divCargando">
+            <img id="spinCargando" src="assets/images/spin.gif">
+        </div>
+        <div id="cuerpoCotizacion" hidden>
+            <!-- Titulo -->
+            <div class="divEstilo" id="divTitulo">
+                <div class="has-text-centered is-uppercase mg">Cotizacion del Dolar</div>
+            </div>
+            <!-- Actualizar -->
+            <form id="formActualizar">
+                <button class="divEstilo" id="btnActualizar">
+                    <i id="iconReload" class="fas fa-sync-alt"></i>
+                </button>
+            </form>
+            <!-- Oficial -->
+                <!-- Izquierda -->
+            <div class="divLabelSupIzq positionLabelOficial has-text-centered">Oficial</div>
+            <div class="divFechaInfIzq positionFechaOficial has-text-centered" id="fechaActOficial"></div>
+                <!-- Derecha -->
+                    <!-- Superior -->
+                    <div class="divCompraOficial positionCompraOficial has-text-left">Compra: <span id="compraOficialValor"></span></div>
+                    <div class="divPorcentajeOficial positionPorcentajeOficial has-text-centered"><span id="variacionOficial"></span></div>
+                    <!-- Inferior -->
+                    <div class="divVentaOficial positionVentaOficial has-text-left">Venta: <span id="ventaOficialValor"></span></div>
+                    <div class="divSimboloOficial positionSimboloOficial has-text-centered"><i class="" id="simboloOficial"></i></div>
+
+            <!-- Blue -->
+                <!-- Izquierda -->
+            <div class="divLabelSupIzq positionLabelBlue has-text-centered">Blue</div>
+            <div class="divFechaInfIzq positionFechaBlue has-text-centered" id="fechaActBlue"></div>
+                <!-- Derecha -->
+                    <!-- Superior -->
+                    <div class="divCompraOficial positionCompraBlue has-text-left">Compra: <span id="compraBlueValor"></span></div>
+                    <div class="divPorcentajeOficial positionPorcentajeBlue has-text-centered"><span id="variacionBlue"></span></div>
+                    <!-- Inferior -->
+                    <div class="divVentaOficial positionVentaBlue has-text-left">Venta: <span id="ventaBlueValor"></span></div>
+                    <div class="divSimboloOficial positionSimboloBlue has-text-centered"><i class="" id="simboloBlue"></i></div>
+
+            <!-- Mayorista -->
+                <!-- Izquierda -->
+            <div class="divLabelSupIzq positionLabelMayorista has-text-centered">Mayorista</div>
+            <div class="divFechaInfIzq positionFechaMayorista has-text-centered" id="fechaActMayorista"></div>
+                <!-- Derecha -->
+                    <!-- Superior -->
+                    <div class="divCompraOficial positionCompraMayorista has-text-left">Compra: <span id="compraMayoristaValor"></span></div>
+                    <div class="divPorcentajeOficial positionPorcentajeMayorista has-text-centered"><span id="variacionMayorista"></span></div>
+                    <!-- Inferior -->
+                    <div class="divVentaOficial positionVentaMayorista has-text-left">Venta: <span id="ventaMayoristaValor"></span></div>
+                    <div class="divSimboloOficial positionSimboloMayorista has-text-centered"><i class="" id="simboloMayorista"></i></div>
+
+            <!-- Futuro -->
+                <!-- Izquierda -->
+            <div class="divLabelSupIzq positionLabelFuturo has-text-centered">Futuro</div>
+            <div class="divFechaInfIzq positionFechaFuturo has-text-centered" id="fechaActFuturo"></div>
+                <!-- Derecha -->
+                    <!-- Superior -->
+                    <div class="divCompraOficial positionCompraFuturo has-text-left">Compra: <span id="compraFuturoValor"></span></div>
+                    <div class="divPorcentajeOficial positionPorcentajeFuturo has-text-centered"><span id="variacionFuturo"></span></div>
+                    <!-- Inferior -->
+                    <div class="divVentaOficial positionVentaFuturo has-text-left">Venta: <span id="ventaFuturoValor"></span></div>
+                    <div class="divSimboloOficial positionSimboloFuturo has-text-centered"><i class="" id="simboloFuturo"></i></div>
+        </div>
+    </div>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
