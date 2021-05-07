@@ -62,12 +62,24 @@ const cambiarSimbolo = (simbolo,variacion,clase) =>{
     }
 }
 
-const btnActualizar = document.getElementById('formActualizar')
-btnActualizar.onclick = (e) => {
-    e.preventDefault();
-    obtenerValores(urlDolar);
-}
 
 window.onload = () => {
+    let templateCotizacion = document.getElementById('templateCotizacion');
+    let appCotizacion = document.getElementById('appCotizacionExtension');
+    appCotizacion.innerHTML = templateCotizacion.innerHTML;
+    if(templateCotizacion.innerHTML != ""){
+        templateCotizacion.innerHTML = "";
+    }
+    appCotizacion.style.height = "394px";
+    appCotizacion.style.width = "300px";
+
+
+    const btnActualizar = document.getElementById('formActualizar')
+
+    btnActualizar.onclick = (e) => {
+        e.preventDefault();
+        obtenerValores(urlDolar);
+    }
+
     obtenerValores(urlDolar);
 }
